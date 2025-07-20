@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+
+body { background: #f6f8fb; color: #222; }
+
+nav {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 30px 100px; background: #fff;
+  box-shadow: 0 2px 4px #eee;
+}
+.logo-img {
+  height: 120px;
+  width: auto;
+  border-radius: 50%; /* Optional: makes it circular */
+  object-fit: cover;
+}
+
+
+nav .logo { font-weight: 700; font-size: 1.5em; color: #fd4766; }
+
+nav ul { display: flex; list-style: none; }
+nav ul li { margin: 0 18px; }
+nav ul li a { color: #1d1d24; text-decoration: none; transition: color 0.3s; }
+nav ul li a:hover { color: #fd4766; }
+
+.btn {
+  background: #fd4766; color: #fff; padding: 12px 28px; border-radius: 24px;
+  text-transform: uppercase; font-weight: 700; border: none;
+  transition: background 0.3s; text-decoration: none;
+}
+
+.btn:hover { background: transparent; color: #fd4766; border: 2px solid #fd4766; }
+
+.hero {
+  height: 55vh; display: flex; align-items: center; justify-content: flex-start;
+  background: linear-gradient(120deg, #7644ff 0%, #fd4766 100%);
+  position: relative;
+}
+
+.content { margin-left: 100px; }
+.title { font-size: 1.2em; color: #fff; text-shadow: 0 2px 8px #7644ff44; }
+.hero h1 { font-size: 2.6em; font-weight: 900; color: #fff; }
+.hero h1 span { color: #fd4766; }
+.hero p { margin: 20px 0 30px; color: #eee; width: 55%; }
+
+.fade-in { opacity: 0; animation: fadeIn 2s forwards; }
+@keyframes fadeIn { to { opacity: 1; } }
+
+section {
+  padding: 45px 100px; background: #fff;
+  margin: 20px 0; border-radius: 18px;
+  box-shadow: 0 1px 4px #f0f0f0;
+}
+
+.skills-list { display: flex; flex-wrap: wrap; gap: 14px; list-style: none; margin-top: 12px; }
+.skills-list li {
+  background: #f6f8fb; padding: 10px 18px;
+  border-radius: 18px; color: #7644ff; font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.education-item { margin-bottom: 18px; }
+.education-item h3 { font-size: 1.15em; color: #fd4766; }
+
+blockquote {
+  background: #f6f8fb; border-left: 5px solid #fd4766;
+  margin: 12px 0; padding: 14px 22px; font-style: italic; color: #444;
+}
+blockquote span { display: block; font-weight: 700; color: #7644ff; margin-top: 8px; }
+
+footer {
+  text-align: center; padding: 30px 0 10px; background: #222;
+  color: #fff; margin-top: 40px;
+}

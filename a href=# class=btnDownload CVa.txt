@@ -1,0 +1,132 @@
+    <a href="#" class="btn">Download CV</a>
+
+    <span class="title">Web Developer</span>
+
+
+ <section id="testimonials">
+    <h2>Testimonials</h2>
+    <blockquote>
+      "Very talented and professional developer!"<br>
+      <span>- Client Name</span>
+    </blockquote>
+    <!-- Add more testimonials as necessary -->
+  </section>
+
+ <li><a href="#testimonials">Testimonials</a></li>
+
+
+
+
+------
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">MY LOGO</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+     
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#" class="btn">Resume</a>
+  </nav>
+
+  <header class="hero">
+    <div class="content fade-in">
+  
+      <h1>Hello, I’m <span>Abhijith S Nayak</span></h1>
+      <p> I’m a passionate and dedicated developer with a strong interest in building smart, user-friendly digital solutions. !
+<a href="file:///C:/Users/Abhi/Desktop/port/a.pdf" class="btn">Download CV</a></p>
+  
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p> Aspiring Information Science professional passionate about blending technology,
+ analysis, and communication to create meaningful impact in the IT industry.
+ Eager to grow through dynamic opportunities that challenge and inspire
+ innovation</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+	<li> Python </li>
+      <li>HTML5 & CSS3</li>
+      <li>JavaScript / ES6+</li>
+      <li>React.js</li>
+      <li>Node.js</li>
+      <li>UI/UX Design</li>
+      <li>Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education-item">
+      <h3>Bachelor of Technology in Computer Science</h3>
+      <p>N.M.A.M.I.T Nitte <br> 2023 – 2026</p>
+    </div>
+
+	<div class="education-item">
+      <h3>Diploma</h3>
+      <p>Dr.T.M.A.Pai Polytechnic Manipal <br> 2019-2022</p>
+    </div>
+
+	<div class="education-item">
+      <h3>Secondary School </h3>
+      <p>G.P.U.C.Muniyal <br>2014-2017</p>
+    </div>
+    <!-- Add more education items as needed -->
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Providing AI Cyber Security to Smartgrids</h3>
+      <p>-Artificial Intelligence and Machine Learning<br>
+Smart grids are increasingly vulnerable to cyber threats due to their interconnected nature. AI-powered cybersecurity offers advanced threat detection, real-time monitoring, and rapid response to protect critical energy infrastructure. This integration ensures smarter, safer, and more resilient power systems.
+</p><br>
+
+
+<h3> Hotel bill Generator</h3>
+      <p>-Python Programing<br>
+A Botel Bill Generator is a software tool or application used to create professional and accurate invoices for guests at checkout. It typically includes details like guest information, room charges, taxes, additional services (e.g., food, laundry), and the total amount due. These tools streamline billing, reduce errors, and ensure a smooth payment process for both hotels and customers.
+</p><br>
+
+
+
+<h3>Student Result Web Application</h3>
+      <p>-Web Programming<br>
+A Student Result Web Application is an online platform designed to display academic results for students in a secure and accessible way. It allows students to log in and view their grades, marks, or performance reports across subjects and semesters. This application helps institutions manage results efficiently while providing students with real-time access to their academic progress.
+</p><br>
+    </div>
+    <!-- Duplicate for more projects -->
+  </section>
+
+ 
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:abhijithnayak09@gmail.com">abhijithnayak09@gmail.com</a></p>
+</section>
+
+  <footer>
+    <p>© 2025 Your Name</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
